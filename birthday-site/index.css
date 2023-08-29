@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Happy+Monkey&family=Orbitron&display=swap');
+
+
+body {
+    text-align: center;
+    font-family: "Happy Monkey";
+    background-color: #a2d2ff;
+    color: #ffffff;
+    font-size: large;
+
+}
+
+#aubaid-img {
+    width: 250px;
+    border-radius: 45%;
+    border: solid 20px #EFB0C9;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    text-shadow: 0px 0px 6px black;
+}
+
+#h2,
+#h4,
+#h3 {
+    background: #EFB0C9;
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img {
+    border-radius: 70px;
+    width: 600px;
+}
+
+.gift-section {
+    margin-top: 80px;
+}
+
+.gift-hint {
+    margin-bottom: 50px;
+}
+
+.gift-1,
+.gift-2,
+.gift-3,
+.gift-4,
+.gift-5,
+.gift-6 {
+    margin: 0 auto;
+    width: 500px;
+    height: 430px;
+    border: 6px solid white;
+    border-radius: 80px;
+    background-image: url("./assets/istockphoto-892012180-170667a.jpg");
+    background-size: cover;
+}
+
+.gift-1:hover {
+    background-image: url("./assets/giphy\ \(15\).gif");
+
+
+}
+
+.gift-2:hover {
+    background-image: url("./assets/200.webp");
+
+
+}
+
+.gift-3:hover {
+    background-image: url("./assets/giphy\ \(16\).gif");
+
+
+}
+
+.gift-4:hover {
+    background-image: url("./assets/1ed63076-922b-49f3-84dd-b73dd7971f13.jpeg");
+
+
+}
+
+.gift-5:hover {
+    background-image: url("./assets/giphy\ \(17\).gif");
+
+
+}
+
+.gift-6:hover {
+    background-image: url("./assets/giphy\ \(18\).gif");
+
+
+}
+
+@media(max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .gift-1,
+    .gift-2,
+    .gift-3,
+    .gift-4,
+    .gift-5,
+    .gift-6 {
+        margin: 0 auto;
+        width: 300px;
+        height: 260px;
+        border: 2px solid white;
+        border-radius: 40px;
+        background-image: url("./assets/istockphoto-892012180-170667a.jpg");
+        background-size: cover;
+    }
+}
